@@ -1,6 +1,6 @@
 import axios from 'axios'
-const loginUrl = '/api/login'
-const registerUrl = '/api/users'
+const loginUrl = 'https://shopping-kart-2.onrender.com/api/login'
+const registerUrl = 'https://shopping-kart-2.onrender.com/api/users'
 
 const login = async user => {
   const request = axios.post(loginUrl, user)
