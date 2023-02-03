@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = '/api/products'
+const baseUrl = 'https://shopping-kart-2.onrender.com/api/products'
 
 let token = null
 
